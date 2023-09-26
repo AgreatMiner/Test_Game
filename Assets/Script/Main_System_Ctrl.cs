@@ -1,6 +1,7 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.SceneManagement;
 using UnityEngine.UI;
 
 public class Main_System_Ctrl : MonoBehaviour
@@ -32,6 +33,7 @@ public class Main_System_Ctrl : MonoBehaviour
         if (name.text != null)
         {
             Debug.Log(name.text);
+            SceneManager.LoadScene("Gaming");
         }
     }
 
