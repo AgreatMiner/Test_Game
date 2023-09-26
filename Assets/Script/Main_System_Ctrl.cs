@@ -8,6 +8,7 @@ public class Main_System_Ctrl : MonoBehaviour
 {
     public Text name;
     public Text start;
+    
     // Start is called before the first frame update
     void Start()
     {
